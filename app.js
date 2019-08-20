@@ -29,7 +29,7 @@ mongoose
     }@cluster0-ntrwp.mongodb.net/${process.env.MONGO_DB}?retryWrites=true`
   )
   .then(() => {
-    app.listen(3000);
+    app.listen(8000);
   })
   .catch(err => {
     console.log(err);
